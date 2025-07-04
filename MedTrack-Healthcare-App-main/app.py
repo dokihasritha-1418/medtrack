@@ -38,7 +38,7 @@ APPOINTMENTS_TABLE_NAME = os.environ.get('APPOINTMENTS_TABLE_NAME', 'Appointment
 app = Flask(__name__)
 
 # SNS Configuration
-SNS_TOPIC_ARN = os.environ.get('SNS_TOPIC_ARN')
+SNS_TOPIC_ARN = arn:aws:sns:us-east-1:216989094633:medtrack1:1654227b-80a8-4526-a694-db40b765c722
 ENABLE_SNS = os.environ.get('ENABLE_SNS', 'False').lower() == 'true'
 
 # ========================
